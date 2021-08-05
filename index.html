@@ -59,7 +59,7 @@
         }
 
         div body {
-            font-family: SF-Pro-Display;
+            font-family: SF-Pro-Display,sans-serif;
             font-style: normal;
         }
 
@@ -225,72 +225,6 @@
                 font-size: 18px;
             }
         }
-
-        /*** Timeline CSS ***/
-        .container {
-            width: auto;
-            max-width: 680px;
-            padding: 0 15px;
-        }
-
-        .social-icon {
-            color: #fff;
-        }
-
-        ul.social-icons {
-            margin-top: 10px;
-        }
-
-        .social-icons li {
-            vertical-align: top;
-            display: inline;
-            height: 100px;
-        }
-
-        .social-icons a {
-            color: #fff;
-            text-decoration: none;
-
-        }
-
-        .bi-linkedin {
-            padding: 10px 14px;
-            -o-transition: .5s;
-            -moz-transition: .5s;
-            -webkit-transition: .5s;
-            transition: .5s;
-            background-color: #322f30;
-        }
-
-        .bi-linkedin:hover {
-            background-color: #007bb5;
-        }
-
-        .bi-envelope-fill {
-            padding: 10px 14px;
-            -o-transition: .5s;
-            -moz-transition: .5s;
-            -webkit-transition: .5s;
-            transition: .5s;
-            background-color: #322f30;
-        }
-
-        .bi-envelope-fill:hover {
-            background-color: #0072b1;
-        }
-
-        .bi-telegram {
-            padding: 10px 14px;
-            -o-transition: .5s;
-            -moz-transition: .5s;
-            -webkit-transition: .5s;
-            transition: .5s;
-            background-color: #322f30;
-        }
-
-        .bi-telegram:hover {
-            background-color: #0088cc;
-        }
     </style>
 
 </head>
@@ -330,18 +264,22 @@
 
 <main class="container animate__animated animate__fadeInUp">
     <div class="row">
-        <div class="col-12">
-            <img src="images/leo.jpeg" alt="image" class="img-thumbnail circle-img" style="display: block;
-             margin-left: auto; margin-right: auto; width: 150px; height: 150px;"/>
+        <div class="col-5">
+            <img src="images/leo.jpeg" alt="image" class="img-fluid" style="display: block;
+             margin-left: auto; margin-right: auto; width: 200px; height: 200px;"/>
+        </div>
+        <div class="col-7">
+            <h3>Leonard Wong</h3>
+            <p>
+                <i class="bi bi-person-fill"></i> Final Year Undergraduate
+                <br/>
+                <i class="bi bi-award-fill"></i> Quantedge Foundation Scholar
+                <br/>
+                <i class="bi bi-water"></i> MPA Global Internship Award 2019 Awardee</p>
         </div>
     </div>
     <br/>
-    <div class="row">
-        <div class="col-6 mx-auto offset-8">
-            <h3>Leonard Wong</h3>
-        </div>
-    </div>
-    <div class="row align-items-center">
+  <!--  <div class="row align-items-center">
         <div class="col-7 mx-auto offset-5">
             <ul class="social-icons align-items-center">
                 <li><a href="https://linkedin.com/in/leonardwongly" class="social-icon" target="_blank"
@@ -354,14 +292,7 @@
                         class="bi bi-telegram" id="telegram" aria-hidden="true"></i></a></li>
             </ul>
         </div>
-    </div>
-    <div class="row align-items-center offset-md-2">
-        <div class="col-10 mx-auto">
-            <p>
-                <i class="bi bi-person-fill"></i>&nbsp;Final Year Student,
-                Quantedge Foundation Scholar & MPA Global Internship Award 2019 Awardee
-        </div>
-    </div>
+    </div>-->
     <br/>
     <div class="row align-items-center">
         <div class="col-12 mx-auto">
@@ -1135,41 +1066,55 @@
 
 <!-- Career Modal -->
 
-<footer class="footer mt-auto py-3 bg-dark">
-    <div class="container">
-        <span style="color:white;">&copy;2020 - 2021 Leonard Wong</span>
-        <span style="color:white;float:right;">All Rights Reserved</span>
-    </div>
-    <br/>
-    <div class="container">
-        <img src="https://api.thegreenwebfoundation.org/greencheckimage/leonardwong.tech?nocache=true"
-             alt="This website is hosted Green - checked by thegreenwebfoundation.org" width="200" height="100">
-        <span style="color:white;float:right;">
-         <script data-cfbadgetype="d" data-cfbadgeskin="dkgray" type="text/javascript">
-//<![CDATA[
-try {
-    window.CloudFlare || function () {
-        var a = window.document, b = a.createElement("script"), a = a.getElementsByTagName("script")[0];
-        window.CloudFlare = [];
-        b.type = "text/javascript";
-        b.async = !0;
-        b.src = "//ajax.cloudflare.com/cdn-cgi/nexp/cloudflare.js";
-        a.parentNode.insertBefore(b, a)
-    }(), CloudFlare.push(function (a) {
-        a(["cloudflare/badge"])
-    })
-} catch (e$$5) {
-    try {
-        console.error("CloudFlare badge code could not be loaded. " + e$$5.message)
-    } catch (e$$6) {
-    }
-}
-;
-//]]>
-</script>
-        </span>
-    </div>
-</footer>
 </body>
+
+
+<!-- New Footer -->
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-6 d-flex align-items-center">
+            <span class="text-muted">&copy; 2020 - 2021 Leonard Wong</span>
+        </div>
+        <div class="nav col-md-6 justify-content-end list-unstyled d-flex">
+            <span class="text-muted"><script data-cfbadgetype="f" data-cfbadgeskin="icon" type="text/javascript">
+            //<![CDATA[
+            try {
+                window.CloudFlare || function () {
+                    var a = window.document, b = a.createElement("script"), a = a.getElementsByTagName("script")[0];
+                    window.CloudFlare = [];
+                    b.type = "text/javascript";
+                    b.async = !0;
+                    b.src = "//ajax.cloudflare.com/cdn-cgi/nexp/cloudflare.js";
+                    a.parentNode.insertBefore(b, a)
+                }(), CloudFlare.push(function (a) {
+                    a(["cloudflare/badge"])
+                })
+            } catch (e$$5) {
+                try {
+                    console.error("CloudFlare badge code could not be loaded. " + e$$5.message)
+                } catch (e$$6) {
+                }
+            }
+            ;
+            //]]>
+        </script></span>
+        </div>
+        <br/>
+
+        <div class="col-md-6 d-flex align-items-center">
+            <span class="text-muted">All Rights Reserved</span>
+        </div>
+        <div class="nav col-md-6 justify-content-end list-unstyled d-flex">
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-twitter" style="width:50px;height:50px;color: #1DA1F2;"></i></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-linkedin" style="width:50px;height:50px;color: #007bb5;"></i></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-telegram" style="width:50px;height:50px;color: #0088cc;"></i></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-envelope-fill" style="width:50px;height:50px;color:#0072b1;"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</div>
+<!-- End Footer -->
+
 </html>
 
