@@ -230,33 +230,31 @@
 </head>
 <body>
 <h1 style="display:none">hi</h1>
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html">Leonard's Portfolio</a>
+        <a class="navbar-brand" href="/index.html">Leonard Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item active">
+
+        <div class="navbar-collapse offcanvas-collapse collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="/index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="/reading.html">Books Read</a>
+                    <a class="nav-link" href="/reading.html">Books Read</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                       data-bs-toggle="dropdown" aria-expanded="true">
-                        View Resume
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="docs/resume.docx" target="_blank" rel="noreferrer noopener">Word
-                            Format</a></li>
-                        <li><a class="dropdown-item" href="docs/resume.pdf" target="_blank" rel="noreferrer noopener">PDF
-                            Format</a></li>
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="docs/resume.pdf">View Resume</a>
                 </li>
+            </ul>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="https://link.leonardwong.tech/twitter" target="_blank" rel="noreferrer noopener"><i class="bi bi-twitter" style="width:50px;height:50px;color: #1DA1F2;"></i></a></li>
+                <li class="ms-3"><a class="link-dark" href="https://link.leonardwong.tech/linkedin" target="_blank" rel="noreferrer noopener"><i class="bi bi-linkedin" style="width:50px;height:50px;color: #007bb5;"></i></a></li>
+                <li class="ms-3"><a class="link-dark" href="https://link.leonardwong.tech/telegram" target="_blank" rel="noreferrer noopener"><i class="bi bi-telegram" style="width:50px;height:50px;color: #0088cc;"></i></a></li>
+                <li class="ms-3"><a class="link-dark" href="mailto:me@leonardwong.net" target="_blank" rel="noreferrer noopener"><i class="bi bi-envelope-fill" style="width:50px;height:50px;color:#0072b1;"></i></a></li>
             </ul>
         </div>
     </div>
