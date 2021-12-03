@@ -1,6 +1,8 @@
-# ProjectPortfolio-beta
+# This repository had been archived and merged with the [main repository](https://github.com/leonardwongly/ProjectPortfolio).
+It will remained as **READ-ONLY**
+---
 
-This is the beta version of [ProjectPortfolio](https://github.com/leonardwongly/ProjectPortfolio)
+# ProjectPortfolio-beta
 
 ---
 
@@ -18,6 +20,6 @@ Usually updates are done to the beta before it is committed to the main codebase
 ---
 
 Feel free to follow me on my socials 😶‍🌫️<br/>
-[Twitter](https://link.leonardwong.tech/twitter)
+[Twitter](https://twitter.leonardwong.tech)
 <br/>
-[Linkedin](https://link.leonardwong.tech/linkedin)
+[Linkedin](https://linkedin.leonardwong.tech)
